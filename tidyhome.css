@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav1{
+    top: 0px;
+    position: fixed;
+    width: 155px;
+    float: left;
+    color:white;
+    background-color: #F95A0B;
+    text-align: left;
+    padding: 30px;
+    letter-spacing: 2px;
+    list-style-type: none;
+    font-family: Montserrat-Regular;
+}
+
+.nav2{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    float: left;
+    text-align: right;
+    padding: 30px;
+    letter-spacing: 2px;
+    color: #F95A0B;
+}
+
+.nav2 li{
+    font-family: Montserrat-Regular;
+    display: inline-block;
+    margin-right: 20px;
+    color:white;
+}
+
+@font-face {
+    font-family: Montserrat-Bold, Montserrat-Regular;
+    src: url('Montserrat-Bold.ttf','Montserrat-Regular.ttf');
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+	color: black;
+    text-decoration: none;
+}
+
+body { font-family: Helvetica, Arial, sans-serif; line-height: 1.3em;
+    color: white;
+    -webkit-font-smoothing: antialiased; 
+}
+
+
+
+p{
+    font-family: Montserrat-Bold;
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+
+em{
+    font-weight: lighter;
+}
+
+
+
+.button{
+    margin-top: 30px;
+    width: 170px;
+    height: 50px;
+    font-family: Montserrat-Bold, monospace;
+    font-size: 12px;
+    color: #F95A0B;
+    opacity: 1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #EEE; 
+    color: #F95A0B;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+
+
+
+ #headline-container{
+    position:relative;
+    top:50px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 80px;
+    padding-top: 80px;
+    background-color:#F95A0B;
+    
+}
+
+#headline-container p{
+    color:white;
+    text-align: center;
+}
+
+.parallax-window {
+    background: transparent;
+}
+
+.one {
+    min-height: 1000px;
+}
+
+.container{
+    position:relative;
+    top:80px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+  }
+
+.carousel-caption {
+    font-family: Montserrat-Regular;
+    font-size:18px;
+    position:relative;
+    bottom:0px;
+}
+
+.carousel-caption h4 {
+    font-family: Montserrat-Regular;
+    font-size:12px;
+    position:relative;
+}
+
+.carousel-caption p {
+    font-family: Montserrat-Regular;
+    font-size:12px;
+    position:relative;
+}
+
+.carousel-indicators {
+    position:relative;
+}
+
+
+
+.reviews{
+    position: relative;
+    top:50px;
+    text-align: center;
+    
+}
