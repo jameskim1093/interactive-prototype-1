@@ -8,7 +8,7 @@
     <!--CSS-->
     <link type="text/css" href="tidyhome.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <!--JQUERY-->
+    <!--jQuery-->
 	 <script src="jquery-2.2.0.min.js" type="text/javascript"></script>
    
 </head>
@@ -18,24 +18,14 @@
     
 <body>
 
-<nav class="navwrapper">
-    
-    <ul class="nav1">
-        <li>TIDYHOME</li>
-    </ul>
-    
-    <ul class="nav2">
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">LOGIN</a></li>
-        <li><a href="#">SIGN UP</a></li>    
-    </ul>
-</nav>
 
 
 
-<!--PARALLAX-->
+<!--Parallax-->
 <div class="parallax-window one" data-parallax="scroll" data-image-src="images/house.jpg"></div>
+
     
+
 <!-- Carousel -->
 <div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -99,13 +89,12 @@
     </a>
   </div>
 </div>
-
-    
+   
     <!--Tagline & Button-->
     
 
     <div id="headline-container">
-            <p>Organize your home the way you <em>and your housemates</em> like it! </p>
+            <p class="headline">Organize your home the way you <em>and your housemates</em> like it! </p>
         
         <input type="submit" class="button" id="start" value="Get Started" />
     </div>
@@ -117,14 +106,40 @@
     <img src="images/reviews.png" width="800" height="254">
     </div>
     
+<section class="review-wrapper">
+    <article id="ashley">
+        <h3>Ashley Pae</h3>
+        <p>"This app changed my life. I'm going to rate all of my housemates and give them good scores."</p>
+    </article>
     
+    <article id="james">
+        <h3>James Kim</h3>
+        <p>"TidyHome saved my marriage. I don't know what I would have done if I couldn't passive-aggressively convince my hubby to do his laundry using the app."</p>
+    </article>
     
+    <article id="mel">
+        <h3>Mel Wardhana</h3>
+        <p>"I love my cat and so do my housemates. TidyHome made sure we all gave Luna the love she deserves."</p>
+    </article>
+</section>
+
+<!--always at bottom-->
+<nav class="navwrapper">   
+    <ul class="second-nav">
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">LOGIN</a></li>
+        <li><a href="#">SIGN UP</a></li>    
+    </ul>
     
+    <ul class="nav1">
+        <li>TIDYHOME</li>
+    </ul>
+</nav>
     
-    <!--JAVASCRIPT-->
-    <script src="tidyhome.js"></script>
-   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="parallax.js" type="text/javascript"></script>
+<!--JAVASCRIPT-->
+<script src="tidyhome.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="parallax.js" type="text/javascript"></script>
     
 </body>
 </html>
